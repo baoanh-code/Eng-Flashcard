@@ -1,0 +1,32 @@
+{
+  "guardrails": {
+    "hooks": {
+      "privacy": {
+        "enabled": true
+      },
+      "scout": {
+        "enabled": true,
+        "allowlist": []
+      },
+      "descriptiveName": {
+        "enabled": true
+      },
+      "sessionInit": {
+        "enabled": true
+      },
+      "languagePrompt": {
+        "enabled": true
+      }
+    }
+  },
+  "language": {
+    "conversation": "vi",
+    "thinking": "vi"
+  },
+  "artifacts": {
+    "plans": {
+      "directory": "plans",
+      "archiveDirectory": "plans/archive"
+    }
+  }
+}

@@ -1,0 +1,79 @@
+﻿Term,Topics,NormalizedTopics,Count,SourceRows,RecommendedResolution
+adventure,Từ vựng về du lịch | Từ vựng về các thể loại phim | Từ vựng về các thể loại sách,Travel | Hobbies & Entertainment,3,399 | 453 | 487,Retain cross-topic senses unless a manual review confirms they are identical.
+art,Từ vựng về giải trí | Từ vựng về các môn học | Từ vựng về nghệ thuật,Hobbies & Entertainment | School & Education | Culture & Arts,3,441 | 837 | 947,Retain cross-topic senses unless a manual review confirms they are identical.
+comedy,Từ vựng về giải trí | Từ vựng về các thể loại phim | Từ vựng về các thể loại sách,Hobbies & Entertainment,3,442 | 454 | 485,Merge duplicate rows inside the normalized topic after checking meanings.
+drama,Từ vựng về giải trí | Từ vựng về các thể loại phim | Từ vựng về các thể loại sách,Hobbies & Entertainment,3,443 | 455 | 484,Merge duplicate rows inside the normalized topic after checking meanings.
+photography,Từ vựng về sở thích | Từ vựng về chụp ảnh | Từ vựng về nghệ thuật,Hobbies & Entertainment | Culture & Arts,3,333 | 412 | 951,Retain cross-topic senses unless a manual review confirms they are identical.
+romance,Từ vựng về tình yêu | Từ vựng về các thể loại phim | Từ vựng về các thể loại sách,People & Relationships | Hobbies & Entertainment,3,177 | 458 | 475,Retain cross-topic senses unless a manual review confirms they are identical.
+actor,Từ vựng về giải trí | Từ vựng về các nghề nghiệp,Hobbies & Entertainment | Work & Jobs,2,445 | 763,Retain cross-topic senses unless a manual review confirms they are identical.
+affection,Từ vựng về tính cách | Từ vựng về tình yêu,People & Relationships,2,92 | 172,Merge duplicate rows inside the normalized topic after checking meanings.
+airport,Từ vựng về du lịch | Từ vựng về biển báo giao thông,Travel | Transport,2,406 | 747,Retain cross-topic senses unless a manual review confirms they are identical.
+artistic,Từ vựng về văn hóa | Từ vựng về nghệ thuật,Culture & Arts,2,945 | 964,Merge duplicate rows inside the normalized topic after checking meanings.
+attractive,Từ vựng về làm đẹp,Hobbies & Entertainment,2,493 | 509,Merge duplicate rows inside the normalized topic after checking meanings.
+aunt,Từ vựng về gia đình | Từ vựng về mối quan hệ,People & Family | People & Relationships,2,25 | 154,Retain cross-topic senses unless a manual review confirms they are identical.
+brother,Từ vựng về gia đình | Từ vựng về mối quan hệ,People & Family | People & Relationships,2,12 | 150,Retain cross-topic senses unless a manual review confirms they are identical.
+coach,Từ vựng về các môn thể thao | Từ vựng về bóng đá,Sports,2,519 | 537,Merge duplicate rows inside the normalized topic after checking meanings.
+collaboration,Từ vựng về kỹ năng | Từ vựng về kinh doanh,School & Education | Work & Jobs,2,860 | 986,Retain cross-topic senses unless a manual review confirms they are identical.
+competition,Từ vựng về các môn thể thao | Từ vựng về kinh doanh,Sports | Work & Jobs,2,515 | 979,Retain cross-topic senses unless a manual review confirms they are identical.
+composition,Từ vựng về chụp ảnh | Từ vựng về nghệ thuật,Hobbies & Entertainment | Culture & Arts,2,422 | 965,Retain cross-topic senses unless a manual review confirms they are identical.
+concert,Từ vựng về âm nhạc | Từ vựng về giải trí,Hobbies & Entertainment,2,371 | 435,Merge duplicate rows inside the normalized topic after checking meanings.
+cousin,Từ vựng về gia đình | Từ vựng về mối quan hệ,People & Family | People & Relationships,2,23 | 157,Retain cross-topic senses unless a manual review confirms they are identical.
+creativity,Từ vựng về tính cách | Từ vựng về kỹ năng,People & Relationships | School & Education,2,104 | 858,Retain cross-topic senses unless a manual review confirms they are identical.
+cuisine,Từ vựng về đồ ăn | Từ vựng về văn hóa,Food & Drinks | Culture & Arts,2,194 | 940,Retain cross-topic senses unless a manual review confirms they are identical.
+cultural heritage,Từ vựng về Tết | Từ vựng về văn hóa,Festivals & Celebrations | Culture & Arts,2,610 | 944,Retain cross-topic senses unless a manual review confirms they are identical.
+customer,Từ vựng về shopping | Từ vựng về kinh doanh,Shopping | Work & Jobs,2,376 | 974,Retain cross-topic senses unless a manual review confirms they are identical.
+customs,Từ vựng về Tết | Từ vựng về văn hóa,Festivals & Celebrations | Culture & Arts,2,599 | 929,Retain cross-topic senses unless a manual review confirms they are identical.
+delicious,Từ vựng về đồ ăn | Từ vựng về Tết trung thu,Food & Drinks | Festivals & Celebrations,2,203 | 901,Retain cross-topic senses unless a manual review confirms they are identical.
+doctor,Từ vựng về các nghề nghiệp | Từ vựng về sức khỏe,Work & Jobs | Health & Body,2,751 | 771,Retain cross-topic senses unless a manual review confirms they are identical.
+drawing,Từ vựng về sở thích | Từ vựng về nghệ thuật,Hobbies & Entertainment | Culture & Arts,2,338 | 950,Retain cross-topic senses unless a manual review confirms they are identical.
+empathy,Từ vựng về tính cách | Từ vựng về kỹ năng,People & Relationships | School & Education,2,108 | 868,Retain cross-topic senses unless a manual review confirms they are identical.
+exercise,Từ vựng về đời sống | Từ vựng về sức khỏe,Daily Life | Health & Body,2,615 | 784,Retain cross-topic senses unless a manual review confirms they are identical.
+family reunion,Từ vựng về Tết | Từ vựng về Tết trung thu,Festivals & Celebrations,2,595 | 891,Merge duplicate rows inside the normalized topic after checking meanings.
+fantasy,Từ vựng về các thể loại phim | Từ vựng về các thể loại sách,Hobbies & Entertainment,2,460 | 477,Merge duplicate rows inside the normalized topic after checking meanings.
+father,Từ vựng về gia đình | Từ vựng về mối quan hệ,People & Family | People & Relationships,2,2 | 149,Retain cross-topic senses unless a manual review confirms they are identical.
+festival,Từ vựng về giải trí | Từ vựng về Tết trung thu,Hobbies & Entertainment | Festivals & Celebrations,2,439 | 894,Retain cross-topic senses unless a manual review confirms they are identical.
+fever,Từ vựng về sức khỏe | Từ vựng về các loại bệnh,Health & Body,2,788 | 791,Merge duplicate rows inside the normalized topic after checking meanings.
+fish,Từ vựng về tên các loại hải sản | Từ vựng về con vật,Food & Drinks | Animals,2,281 | 648,Retain cross-topic senses unless a manual review confirms they are identical.
+fitness,Từ vựng về các môn thể thao | Từ vựng về sức khỏe,Sports | Health & Body,2,527 | 783,Retain cross-topic senses unless a manual review confirms they are identical.
+flexibility,Từ vựng về tính cách | Từ vựng về các môn thể thao,People & Relationships | Sports,2,111 | 531,Retain cross-topic senses unless a manual review confirms they are identical.
+garnish,Từ vựng về đồ ăn | Từ vựng về nấu ăn,Food & Drinks,2,211 | 330,Merge duplicate rows inside the normalized topic after checking meanings.
+glamorous,Từ vựng về làm đẹp,Hobbies & Entertainment,2,495 | 506,Merge duplicate rows inside the normalized topic after checking meanings.
+graceful,Từ vựng về làm đẹp,Hobbies & Entertainment,2,498 | 511,Merge duplicate rows inside the normalized topic after checking meanings.
+harmony,Từ vựng về tính cách | Từ vựng về âm nhạc,People & Relationships | Hobbies & Entertainment,2,117 | 354,Retain cross-topic senses unless a manual review confirms they are identical.
+headache,Từ vựng về sức khỏe | Từ vựng về các loại bệnh,Health & Body,2,789 | 793,Merge duplicate rows inside the normalized topic after checking meanings.
+horror,Từ vựng về các thể loại phim | Từ vựng về các thể loại sách,Hobbies & Entertainment,2,457 | 479,Merge duplicate rows inside the normalized topic after checking meanings.
+ingredient,Từ vựng về đồ ăn | Từ vựng về nấu ăn,Food & Drinks,2,196 | 313,Merge duplicate rows inside the normalized topic after checking meanings.
+kitchen,Từ vựng về nhà cửa | Từ vựng về nhà bếp,Home,2,556 | 572,Merge duplicate rows inside the normalized topic after checking meanings.
+knife,Từ vựng về nấu ăn | Từ vựng về nhà bếp,Food & Drinks | Home,2,316 | 583,Retain cross-topic senses unless a manual review confirms they are identical.
+landscape,Từ vựng về chụp ảnh | Từ vựng về nghệ thuật,Hobbies & Entertainment | Culture & Arts,2,427 | 962,Retain cross-topic senses unless a manual review confirms they are identical.
+lavender,Từ vựng về hoa | Từ vựng về màu sắc,Nature & Environment | Colors,2,660 | 709,Retain cross-topic senses unless a manual review confirms they are identical.
+library,Từ vựng về giáo dục | Từ vựng về thành phố,School & Education | Places,2,826 | 999,Retain cross-topic senses unless a manual review confirms they are identical.
+lotus,Từ vựng về hoa | Từ vựng về Tết trung thu,Nature & Environment | Festivals & Celebrations,2,670 | 904,Retain cross-topic senses unless a manual review confirms they are identical.
+market,Từ vựng về shopping | Từ vựng về kinh doanh,Shopping | Work & Jobs,2,375 | 972,Retain cross-topic senses unless a manual review confirms they are identical.
+mid-autumn festival,Từ vựng về các lễ hội ở Việt Nam | Từ vựng về Tết trung thu,Festivals & Celebrations,2,871 | 889,Merge duplicate rows inside the normalized topic after checking meanings.
+mindfulness,Từ vựng về tính cách | Từ vựng về đời sống,People & Relationships | Daily Life,2,126 | 621,Retain cross-topic senses unless a manual review confirms they are identical.
+mother,Từ vựng về gia đình | Từ vựng về mối quan hệ,People & Family | People & Relationships,2,3 | 148,Retain cross-topic senses unless a manual review confirms they are identical.
+music,Từ vựng về giải trí | Từ vựng về các môn học,Hobbies & Entertainment | School & Education,2,437 | 838,Retain cross-topic senses unless a manual review confirms they are identical.
+negotiation,Từ vựng về kỹ năng | Từ vựng về kinh doanh,School & Education | Work & Jobs,2,863 | 985,Retain cross-topic senses unless a manual review confirms they are identical.
+nephew,Từ vựng về gia đình | Từ vựng về mối quan hệ,People & Family | People & Relationships,2,21 | 155,Retain cross-topic senses unless a manual review confirms they are identical.
+niece,Từ vựng về gia đình | Từ vựng về mối quan hệ,People & Family | People & Relationships,2,22 | 156,Retain cross-topic senses unless a manual review confirms they are identical.
+nurse,Từ vựng về các nghề nghiệp | Từ vựng về sức khỏe,Work & Jobs | Health & Body,2,755 | 773,Retain cross-topic senses unless a manual review confirms they are identical.
+orange,Từ vựng về trái cây | Từ vựng về màu sắc,Food & Drinks | Colors,2,234 | 695,Retain cross-topic senses unless a manual review confirms they are identical.
+painting,Từ vựng về sở thích | Từ vựng về nghệ thuật,Hobbies & Entertainment | Culture & Arts,2,332 | 948,Retain cross-topic senses unless a manual review confirms they are identical.
+portrait,Từ vựng về chụp ảnh | Từ vựng về nghệ thuật,Hobbies & Entertainment | Culture & Arts,2,426 | 963,Retain cross-topic senses unless a manual review confirms they are identical.
+presentation,Từ vựng về đồ ăn | Từ vựng về đời sống công sở,Food & Drinks | Work & Jobs,2,205 | 1032,Retain cross-topic senses unless a manual review confirms they are identical.
+radiant,Từ vựng về làm đẹp,Hobbies & Entertainment,2,494 | 508,Merge duplicate rows inside the normalized topic after checking meanings.
+recipe,Từ vựng về đồ ăn | Từ vựng về nấu ăn,Food & Drinks,2,195 | 312,Merge duplicate rows inside the normalized topic after checking meanings.
+referee,Từ vựng về các môn thể thao | Từ vựng về bóng đá,Sports,2,517 | 535,Merge duplicate rows inside the normalized topic after checking meanings.
+relative,Từ vựng về gia đình | Từ vựng về mối quan hệ,People & Family | People & Relationships,2,36 | 158,Retain cross-topic senses unless a manual review confirms they are identical.
+science fiction,Từ vựng về các thể loại phim | Từ vựng về các thể loại sách,Hobbies & Entertainment,2,459 | 476,Merge duplicate rows inside the normalized topic after checking meanings.
+sibling,Từ vựng về gia đình | Từ vựng về mối quan hệ,People & Family | People & Relationships,2,10 | 152,Retain cross-topic senses unless a manual review confirms they are identical.
+sister,Từ vựng về gia đình | Từ vựng về mối quan hệ,People & Family | People & Relationships,2,11 | 151,Retain cross-topic senses unless a manual review confirms they are identical.
+stadium,Từ vựng về các môn thể thao | Từ vựng về bóng đá,Sports,2,518 | 540,Merge duplicate rows inside the normalized topic after checking meanings.
+stress,Từ vựng về đời sống | Từ vựng về sức khỏe,Daily Life | Health & Body,2,618 | 790,Retain cross-topic senses unless a manual review confirms they are identical.
+teacher,Từ vựng về các nghề nghiệp | Từ vựng về giáo dục,Work & Jobs | School & Education,2,752 | 813,Retain cross-topic senses unless a manual review confirms they are identical.
+team,Từ vựng về các môn thể thao | Từ vựng về bóng đá,Sports,2,514 | 536,Merge duplicate rows inside the normalized topic after checking meanings.
+teamwork,Từ vựng về kỹ năng | Từ vựng về đời sống công sở,School & Education | Work & Jobs,2,853 | 1033,Retain cross-topic senses unless a manual review confirms they are identical.
+thriller,Từ vựng về các thể loại phim | Từ vựng về các thể loại sách,Hobbies & Entertainment,2,456 | 478,Merge duplicate rows inside the normalized topic after checking meanings.
+tradition,Từ vựng về Tết trung thu | Từ vựng về văn hóa,Festivals & Celebrations | Culture & Arts,2,895 | 928,Retain cross-topic senses unless a manual review confirms they are identical.
+uncle,Từ vựng về gia đình | Từ vựng về mối quan hệ,People & Family | People & Relationships,2,24 | 153,Retain cross-topic senses unless a manual review confirms they are identical.

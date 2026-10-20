@@ -1,0 +1,54 @@
+{
+    "hooks": {
+        "SessionStart": [
+            {
+                "matcher": "startup|resume|clear|compact",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "node \"$(git rev-parse --show-toplevel)/.codex/kit-hooks/session-init.mjs\"",
+                        "timeout": 10
+                    }
+                ]
+            }
+        ],
+        "UserPromptSubmit": [
+            {
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "node \"$(git rev-parse --show-toplevel)/.codex/kit-hooks/language-prompt.mjs\" --platform codex",
+                        "timeout": 10
+                    }
+                ]
+            }
+        ],
+        "PreToolUse": [
+            {
+                "matcher": ".*",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "node \"$(git rev-parse --show-toplevel)/.codex/kit-hooks/privacy-block.mjs\" --platform codex",
+                        "timeout": 10
+                    },
+                    {
+                        "type": "command",
+                        "command": "node \"$(git rev-parse --show-toplevel)/.codex/kit-hooks/scout-block.mjs\" --platform codex",
+                        "timeout": 10
+                    }
+                ]
+            },
+            {
+                "matcher": "Write",
+                "hooks": [
+                    {
+                        "type": "command",
+                        "command": "node \"$(git rev-parse --show-toplevel)/.codex/kit-hooks/descriptive-name.mjs\"",
+                        "timeout": 10
+                    }
+                ]
+            }
+        ]
+    }
+}

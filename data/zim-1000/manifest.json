@@ -1,0 +1,305 @@
+{
+  "generatedAt": "2026-10-20T12:26:54.111Z",
+  "sourceUrl": "https://zim.vn/1000-tu-vung-tieng-anh-theo-chu-de",
+  "stats": {
+    "rawSourceRows": 1046,
+    "expectedSourceRows": 1000,
+    "coveragePercentage": 104.6,
+    "sourceTopicCount": 50,
+    "normalizedTopicCount": 20,
+    "uniqueTerms": 962,
+    "duplicateRows": 0,
+    "duplicateTerms": 78,
+    "duplicateOccurrences": 84,
+    "suspiciousNearDuplicateGroups": 3,
+    "skippedRows": 0,
+    "malformedRows": 0,
+    "missingDefinitionRows": 0,
+    "missingIpaRows": 0,
+    "missingPartOfSpeech": 363,
+    "suspiciousIpa": 0,
+    "cleanRows": 1016,
+    "levelCounts": {
+      "A1": 170,
+      "A2": 110,
+      "B1": 123,
+      "B2": 131,
+      "REVIEW": 482
+    },
+    "a2Rows": 110,
+    "a2TopicCount": 19,
+    "a2ByTopic": {
+      "Animals": 2,
+      "Clothes": 2,
+      "Colors": 2,
+      "Culture & Arts": 4,
+      "Daily Life": 2,
+      "Festivals & Celebrations": 2,
+      "Food & Drinks": 10,
+      "Health & Body": 4,
+      "Hobbies & Entertainment": 18,
+      "Home": 11,
+      "Nature & Environment": 3,
+      "People & Family": 4,
+      "People & Relationships": 5,
+      "School & Education": 9,
+      "Shopping": 3,
+      "Sports": 7,
+      "Transport": 6,
+      "Travel": 3,
+      "Work & Jobs": 13
+    }
+  },
+  "sourceTopics": [
+    {
+      "sourceTopic": "Từ vựng về gia đình",
+      "rows": 36,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về quần áo",
+      "rows": 30,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về môi trường",
+      "rows": 25,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về tính cách",
+      "rows": 37,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về cảm xúc",
+      "rows": 19,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về mối quan hệ",
+      "rows": 24,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về tình yêu",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về đồ ăn",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về đồ uống",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về trái cây",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về rau củ quả",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về tên các loại hải sản",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về tên các món ăn Việt Nam",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về nấu ăn",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về sở thích",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về âm nhạc",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về shopping",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về du lịch",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về chụp ảnh",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về giải trí",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về các thể loại phim",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về các thể loại sách",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về làm đẹp",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về các môn thể thao",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về bóng đá",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về nhà cửa",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về nhà bếp",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về Tết",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về đời sống",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về con vật",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về hoa",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về Giáng sinh",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về màu sắc",
+      "rows": 19,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về phương tiện giao thông",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về biển báo giao thông",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về các nghề nghiệp",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về sức khỏe",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về các loại bệnh",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về giáo dục",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về các môn học",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về kỹ năng",
+      "rows": 19,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về các lễ hội ở Việt Nam",
+      "rows": 17,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về Tết trung thu",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về trò chơi dân gian",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về văn hóa",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về nghệ thuật",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về kinh doanh",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về thành phố",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về tên các nước",
+      "rows": 20,
+      "anomaly": ""
+    },
+    {
+      "sourceTopic": "Từ vựng về đời sống công sở",
+      "rows": 20,
+      "anomaly": ""
+    }
+  ]
+}

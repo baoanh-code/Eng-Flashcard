@@ -1,0 +1,192 @@
+[
+  {
+    "id": "animals",
+    "level": "a2",
+    "name": "Animals",
+    "description": "Từ vựng A2 về Animals.",
+    "sourceAliases": [
+      "animals"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "clothes",
+    "level": "a2",
+    "name": "Clothes",
+    "description": "Từ vựng A2 về Clothes.",
+    "sourceAliases": [
+      "clothes"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "colors",
+    "level": "a2",
+    "name": "Colors",
+    "description": "Từ vựng A2 về Colors.",
+    "sourceAliases": [
+      "colors"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "culture-and-arts",
+    "level": "a2",
+    "name": "Culture & Arts",
+    "description": "Từ vựng A2 về Culture & Arts.",
+    "sourceAliases": [
+      "culture-and-arts"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "daily-life",
+    "level": "a2",
+    "name": "Daily Life",
+    "description": "Từ vựng A2 về Daily Life.",
+    "sourceAliases": [
+      "daily-life"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "festivals-and-celebrations",
+    "level": "a2",
+    "name": "Festivals & Celebrations",
+    "description": "Từ vựng A2 về Festivals & Celebrations.",
+    "sourceAliases": [
+      "festivals-and-celebrations"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "food-and-drinks",
+    "level": "a2",
+    "name": "Food & Drinks",
+    "description": "Từ vựng A2 về Food & Drinks.",
+    "sourceAliases": [
+      "food-and-drinks"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "health-and-body",
+    "level": "a2",
+    "name": "Health & Body",
+    "description": "Từ vựng A2 về Health & Body.",
+    "sourceAliases": [
+      "health-and-body"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "hobbies-and-entertainment",
+    "level": "a2",
+    "name": "Hobbies & Entertainment",
+    "description": "Từ vựng A2 về Hobbies & Entertainment.",
+    "sourceAliases": [
+      "hobbies-and-entertainment"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "home",
+    "level": "a2",
+    "name": "Home",
+    "description": "Từ vựng A2 về Home.",
+    "sourceAliases": [
+      "home"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "nature-and-environment",
+    "level": "a2",
+    "name": "Nature & Environment",
+    "description": "Từ vựng A2 về Nature & Environment.",
+    "sourceAliases": [
+      "nature-and-environment"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "people-and-family",
+    "level": "a2",
+    "name": "People & Family",
+    "description": "Từ vựng A2 về People & Family.",
+    "sourceAliases": [
+      "people-and-family"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "people-and-relationships",
+    "level": "a2",
+    "name": "People & Relationships",
+    "description": "Từ vựng A2 về People & Relationships.",
+    "sourceAliases": [
+      "people-and-relationships"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "school-and-education",
+    "level": "a2",
+    "name": "School & Education",
+    "description": "Từ vựng A2 về School & Education.",
+    "sourceAliases": [
+      "school-and-education"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "shopping",
+    "level": "a2",
+    "name": "Shopping",
+    "description": "Từ vựng A2 về Shopping.",
+    "sourceAliases": [
+      "shopping"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "sports",
+    "level": "a2",
+    "name": "Sports",
+    "description": "Từ vựng A2 về Sports.",
+    "sourceAliases": [
+      "sports"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "transport",
+    "level": "a2",
+    "name": "Transport",
+    "description": "Từ vựng A2 về Transport.",
+    "sourceAliases": [
+      "transport"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "travel",
+    "level": "a2",
+    "name": "Travel",
+    "description": "Từ vựng A2 về Travel.",
+    "sourceAliases": [
+      "travel"
+    ],
+    "nameAliases": []
+  },
+  {
+    "id": "work-and-jobs",
+    "level": "a2",
+    "name": "Work & Jobs",
+    "description": "Từ vựng A2 về Work & Jobs.",
+    "sourceAliases": [
+      "work-and-jobs"
+    ],
+    "nameAliases": []
+  }
+]
