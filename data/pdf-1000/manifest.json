@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T13:34:59.381Z",
+  "generatedAt": "2026-10-21T15:17:20.742Z",
   "canonicalSource": "C:\\Users\\Admin\\Downloads\\1000-tu-vung-tieng-anh-theo-chu-de-thong-dung.pdf",
   "rawSourceRows": 1046,
   "productionEntries": 1023,
@@ -9,8 +9,8 @@
   "skippedRows": 0,
   "missingIpa": 0,
   "missingPartOfSpeech": 358,
-  "examplesPreserved": 116,
-  "examplesGenerated": 907,
+  "examplesPreserved": 114,
+  "examplesGenerated": 909,
   "uniqueNormalizedTerms": 944,
   "duplicateTerms": 90,
   "duplicateOccurrences": 102,

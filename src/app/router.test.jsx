@@ -6,9 +6,14 @@ import { AppRouter } from './router.jsx'
 
 describe('application routes', () => {
   it('renders a nested route through the application shell', async () => {
-    render(<MemoryRouter initialEntries={['/levels/a2/topics']}><AppProviders><AppRouter /></AppProviders></MemoryRouter>)
+    render(<MemoryRouter initialEntries={['/levels/general/topics']}><AppProviders><AppRouter /></AppProviders></MemoryRouter>)
     expect(await screen.findByRole('heading', { level: 1, name: 'Hôm nay bạn muốn nói về điều gì?' })).toBeInTheDocument()
     expect(screen.getByRole('navigation', { name: 'Điều hướng chính' })).toBeInTheDocument()
+  })
+
+  it('keeps legacy A2 bookmarks working through a redirect', async () => {
+    render(<MemoryRouter initialEntries={['/levels/a2/topics']}><AppProviders><AppRouter /></AppProviders></MemoryRouter>)
+    expect(await screen.findByRole('heading', { level: 1, name: 'Hôm nay bạn muốn nói về điều gì?' })).toBeInTheDocument()
   })
 
   it('renders the not found route', () => {

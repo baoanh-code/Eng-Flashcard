@@ -3,6 +3,7 @@ import path from 'node:path'
 import process from 'node:process'
 import { fileURLToPath } from 'node:url'
 import { buildCatalog } from '../src/data/import/buildCatalog.js'
+import { findVocabularyQualityIssues } from '../src/data/import/vocabularyQuality.js'
 import { topicMetadataByLevel } from '../src/data/topics/general.js'
 
 const projectRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
@@ -25,6 +26,7 @@ const sources = await Promise.all(files.map(async (absolutePath) => ({
 })))
 
 const catalog = buildCatalog(sources, topicMetadataByLevel)
+const qualityIssues = findVocabularyQualityIssues(catalog.records)
 
 for (const diagnostic of catalog.diagnostics) {
   const location = diagnostic.row ? `${diagnostic.source}:${diagnostic.row}` : diagnostic.source
@@ -36,4 +38,6 @@ for (const diagnostic of catalog.diagnostics) {
 const levels = new Set(catalog.records.map((record) => record.level))
 console.log(`Validated ${catalog.records.length} vocabulary entries across ${catalog.topics.length} topics and ${levels.size} levels.`)
 
-if (catalog.hasErrors) process.exitCode = 1
+for (const issue of qualityIssues) console.error(`[ERROR] ${issue.type} ${issue.id}`)
+
+if (catalog.hasErrors || qualityIssues.length) process.exitCode = 1

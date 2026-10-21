@@ -1,21 +1,21 @@
 ﻿Term,IPA,PartOfSpeech,Definition,Example,ExampleTranslation,Topic,Level
-dog,/dɔɡ/,noun,chó,"In this topic, “dog” means “chó” in Vietnamese.","Trong chủ đề này, “dog” có nghĩa là “chó” trong tiếng Việt.",Animals,General
-cat,/kæt/,noun,mèo,"In this topic, “cat” means “mèo” in Vietnamese.","Trong chủ đề này, “cat” có nghĩa là “mèo” trong tiếng Việt.",Animals,General
-lion,/ˈlaɪən/,noun,sư tử,"In this topic, “lion” means “sư tử” in Vietnamese.","Trong chủ đề này, “lion” có nghĩa là “sư tử” trong tiếng Việt.",Animals,General
-tiger,/ˈtaɪɡər/,noun,hổ,"In this topic, “tiger” means “hổ” in Vietnamese.","Trong chủ đề này, “tiger” có nghĩa là “hổ” trong tiếng Việt.",Animals,General
-elephant,/ˈɛləfənt/,noun,voi,"In this topic, “elephant” means “voi” in Vietnamese.","Trong chủ đề này, “elephant” có nghĩa là “voi” trong tiếng Việt.",Animals,General
-girafe,/dʒəˈræf/,noun,hươu cao cổ,"In this topic, “girafe” means “hươu cao cổ” in Vietnamese.","Trong chủ đề này, “girafe” có nghĩa là “hươu cao cổ” trong tiếng Việt.",Animals,General
+dog,/dɔɡ/,noun,chó,The children learned about the dog.,Bọn trẻ học về chó.,Animals,General
+cat,/kæt/,noun,mèo,The children learned about the cat.,Bọn trẻ học về mèo.,Animals,General
+lion,/ˈlaɪən/,noun,sư tử,The children learned about the lion.,Bọn trẻ học về sư tử.,Animals,General
+tiger,/ˈtaɪɡər/,noun,hổ,The children learned about the tiger.,Bọn trẻ học về hổ.,Animals,General
+elephant,/ˈɛləfənt/,noun,voi,The children learned about the elephant.,Bọn trẻ học về voi.,Animals,General
+giraffe,/dʒəˈræf/,noun,hươu cao cổ,The children learned about the giraffe.,Bọn trẻ học về hươu cao cổ.,Animals,General
 monkey,/ˈmʌŋki/,noun,khỉ,The monkey is eating a banana.,Con khỉ đang ăn một quả chuối.,Animals,General
-bear,/bɛr/,,gấu,"In this topic, “bear” means “gấu” in Vietnamese.","Trong chủ đề này, “bear” có nghĩa là “gấu” trong tiếng Việt.",Animals,General
-dolphin,/ˈdɒlfɪn/,noun,cá heo,"In this topic, “dolphin” means “cá heo” in Vietnamese.","Trong chủ đề này, “dolphin” có nghĩa là “cá heo” trong tiếng Việt.",Animals,General
-shark,/ʃɑrk/,,cá mập,"In this topic, “shark” means “cá mập” in Vietnamese.","Trong chủ đề này, “shark” có nghĩa là “cá mập” trong tiếng Việt.",Animals,General
-horse,/hɔrs/,noun,ngựa,"In this topic, “horse” means “ngựa” in Vietnamese.","Trong chủ đề này, “horse” có nghĩa là “ngựa” trong tiếng Việt.",Animals,General
-cow,/kaʊ/,noun,bò,"In this topic, “cow” means “bò” in Vietnamese.","Trong chủ đề này, “cow” có nghĩa là “bò” trong tiếng Việt.",Animals,General
-sheep,/ʃip/,noun,cừu,"In this topic, “sheep” means “cừu” in Vietnamese.","Trong chủ đề này, “sheep” có nghĩa là “cừu” trong tiếng Việt.",Animals,General
-rabbit,/ˈræbɪt/,noun,thỏ,"In this topic, “rabbit” means “thỏ” in Vietnamese.","Trong chủ đề này, “rabbit” có nghĩa là “thỏ” trong tiếng Việt.",Animals,General
-bird,/bɜrd/,noun,chim,"In this topic, “bird” means “chim” in Vietnamese.","Trong chủ đề này, “bird” có nghĩa là “chim” trong tiếng Việt.",Animals,General
-butterfly,/ˈbʌtərflaɪ/,noun,bướm,"In this topic, “butterfly” means “bướm” in Vietnamese.","Trong chủ đề này, “butterfly” có nghĩa là “bướm” trong tiếng Việt.",Animals,General
-fsh,/fɪʃ/,,cá,"In this topic, “fsh” means “cá” in Vietnamese.","Trong chủ đề này, “fsh” có nghĩa là “cá” trong tiếng Việt.",Animals,General
-snake,/sneɪk/,noun,rắn,"In this topic, “snake” means “rắn” in Vietnamese.","Trong chủ đề này, “snake” có nghĩa là “rắn” trong tiếng Việt.",Animals,General
+bear,/bɛr/,,gấu,The children learned about the bear.,Bọn trẻ học về gấu.,Animals,General
+dolphin,/ˈdɒlfɪn/,noun,cá heo,The children learned about the dolphin.,Bọn trẻ học về cá heo.,Animals,General
+shark,/ʃɑrk/,,cá mập,The children learned about the shark.,Bọn trẻ học về cá mập.,Animals,General
+horse,/hɔrs/,noun,ngựa,The children learned about the horse.,Bọn trẻ học về ngựa.,Animals,General
+cow,/kaʊ/,noun,bò,The children learned about the cow.,Bọn trẻ học về bò.,Animals,General
+sheep,/ʃip/,noun,cừu,The children learned about the sheep.,Bọn trẻ học về cừu.,Animals,General
+rabbit,/ˈræbɪt/,noun,thỏ,The children learned about the rabbit.,Bọn trẻ học về thỏ.,Animals,General
+bird,/bɜrd/,noun,chim,The children learned about the bird.,Bọn trẻ học về chim.,Animals,General
+butterfly,/ˈbʌtərflaɪ/,noun,bướm,The children learned about the butterfly.,Bọn trẻ học về bướm.,Animals,General
+fish,/fɪʃ/,,cá,The children learned about the fish.,Bọn trẻ học về cá.,Animals,General
+snake,/sneɪk/,noun,rắn,The children learned about the snake.,Bọn trẻ học về rắn.,Animals,General
 spider,/ˈspaɪdər/,noun,nhện,There is a spider near the window.,Có một con nhện gần cửa sổ.,Animals,General
-turtle,/ˈtɜrtl̩/,noun,rùa,"In this topic, “turtle” means “rùa” in Vietnamese.","Trong chủ đề này, “turtle” có nghĩa là “rùa” trong tiếng Việt.",Animals,General
+turtle,/ˈtɜrtl̩/,noun,rùa,The children learned about the turtle.,Bọn trẻ học về rùa.,Animals,General

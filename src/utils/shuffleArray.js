@@ -4,5 +4,8 @@ export function shuffleArray(values, random = Math.random) {
     const target = Math.floor(random() * (index + 1))
     ;[copy[index], copy[target]] = [copy[target], copy[index]]
   }
+  if (copy.length > 1 && copy.every((value, index) => value === values[index])) {
+    copy.push(copy.shift())
+  }
   return copy
 }

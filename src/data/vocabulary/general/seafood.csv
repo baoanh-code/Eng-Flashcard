@@ -1,21 +1,21 @@
 ﻿Term,IPA,PartOfSpeech,Definition,Example,ExampleTranslation,Topic,Level
-shrimp,/ʃrɪmp/,noun,tôm,"In this topic, “shrimp” means “tôm” in Vietnamese.","Trong chủ đề này, “shrimp” có nghĩa là “tôm” trong tiếng Việt.",Seafood,General
-crab,/kræb/,noun,cua,"In this topic, “crab” means “cua” in Vietnamese.","Trong chủ đề này, “crab” có nghĩa là “cua” trong tiếng Việt.",Seafood,General
-lobster,/ˈlɑːbstər/,,tôm hùm,"In this topic, “lobster” means “tôm hùm” in Vietnamese.","Trong chủ đề này, “lobster” có nghĩa là “tôm hùm” trong tiếng Việt.",Seafood,General
-oyster,/ˈɔɪstər/,,hàu,"In this topic, “oyster” means “hàu” in Vietnamese.","Trong chủ đề này, “oyster” có nghĩa là “hàu” trong tiếng Việt.",Seafood,General
-scallop,/ˈskɒləp/,,sò điệp,"In this topic, “scallop” means “sò điệp” in Vietnamese.","Trong chủ đề này, “scallop” có nghĩa là “sò điệp” trong tiếng Việt.",Seafood,General
-clam,/klæm/,noun,nghêu,"In this topic, “clam” means “nghêu” in Vietnamese.","Trong chủ đề này, “clam” có nghĩa là “nghêu” trong tiếng Việt.",Seafood,General
-squid,/skwɪd/,,mực,"In this topic, “squid” means “mực” in Vietnamese.","Trong chủ đề này, “squid” có nghĩa là “mực” trong tiếng Việt.",Seafood,General
-octopus,/ˈɒktəpəs/,,bạch tuộc,"In this topic, “octopus” means “bạch tuộc” in Vietnamese.","Trong chủ đề này, “octopus” có nghĩa là “bạch tuộc” trong tiếng Việt.",Seafood,General
-mussels,/ˈmʌsəlz/,,con trai,"In this topic, “mussels” means “con trai” in Vietnamese.","Trong chủ đề này, “mussels” có nghĩa là “con trai” trong tiếng Việt.",Seafood,General
-fsh,/fɪʃ/,,cá,"In this topic, “fsh” means “cá” in Vietnamese.","Trong chủ đề này, “fsh” có nghĩa là “cá” trong tiếng Việt.",Seafood,General
-salmon,/ˈsæmən/,noun,cá hồi,"In this topic, “salmon” means “cá hồi” in Vietnamese.","Trong chủ đề này, “salmon” có nghĩa là “cá hồi” trong tiếng Việt.",Seafood,General
-tuna,/ˈtuːnə/,noun,cá ngừ,"In this topic, “tuna” means “cá ngừ” in Vietnamese.","Trong chủ đề này, “tuna” có nghĩa là “cá ngừ” trong tiếng Việt.",Seafood,General
-cod,/kɒd/,noun,cá tuyết,"In this topic, “cod” means “cá tuyết” in Vietnamese.","Trong chủ đề này, “cod” có nghĩa là “cá tuyết” trong tiếng Việt.",Seafood,General
-haddock,/ˈhædək/,,cá tuyết trắng,"In this topic, “haddock” means “cá tuyết trắng” in Vietnamese.","Trong chủ đề này, “haddock” có nghĩa là “cá tuyết trắng” trong tiếng Việt.",Seafood,General
-sardine,/sɑːrˈdiːn/,,cá mòi,"In this topic, “sardine” means “cá mòi” in Vietnamese.","Trong chủ đề này, “sardine” có nghĩa là “cá mòi” trong tiếng Việt.",Seafood,General
-anchovy,/ˈænʧəvi/,,cá cơm,"In this topic, “anchovy” means “cá cơm” in Vietnamese.","Trong chủ đề này, “anchovy” có nghĩa là “cá cơm” trong tiếng Việt.",Seafood,General
-trout,/traʊt/,,cá hồi nướng,"In this topic, “trout” means “cá hồi nướng” in Vietnamese.","Trong chủ đề này, “trout” có nghĩa là “cá hồi nướng” trong tiếng Việt.",Seafood,General
-shrimp cocktail,/ʃrɪmpˈkɒkteɪl/,phrase,món tôm sốt cocktail,"In this topic, “shrimp cocktail” means “món tôm sốt cocktail” in Vietnamese.","Trong chủ đề này, “shrimp cocktail” có nghĩa là “món tôm sốt cocktail” trong tiếng Việt.",Seafood,General
-caviar,/ˈkæviɑːr/,,trứng cá hồi,"In this topic, “caviar” means “trứng cá hồi” in Vietnamese.","Trong chủ đề này, “caviar” có nghĩa là “trứng cá hồi” trong tiếng Việt.",Seafood,General
-calamari,/kəˈlæməri/,,mực nướng,"In this topic, “calamari” means “mực nướng” in Vietnamese.","Trong chủ đề này, “calamari” có nghĩa là “mực nướng” trong tiếng Việt.",Seafood,General
+shrimp,/ʃrɪmp/,noun,tôm,The restaurant serves fresh shrimp.,Nhà hàng phục vụ tôm tươi.,Seafood,General
+crab,/kræb/,noun,cua,The restaurant serves fresh crab.,Nhà hàng phục vụ cua tươi.,Seafood,General
+lobster,/ˈlɑːbstər/,,tôm hùm,The restaurant serves fresh lobster.,Nhà hàng phục vụ tôm hùm tươi.,Seafood,General
+oyster,/ˈɔɪstər/,,hàu,The restaurant serves fresh oyster.,Nhà hàng phục vụ hàu tươi.,Seafood,General
+scallop,/ˈskɒləp/,,sò điệp,The restaurant serves fresh scallop.,Nhà hàng phục vụ sò điệp tươi.,Seafood,General
+clam,/klæm/,noun,nghêu,The restaurant serves fresh clam.,Nhà hàng phục vụ nghêu tươi.,Seafood,General
+squid,/skwɪd/,,mực,The restaurant serves fresh squid.,Nhà hàng phục vụ mực tươi.,Seafood,General
+octopus,/ˈɒktəpəs/,,bạch tuộc,The restaurant serves fresh octopus.,Nhà hàng phục vụ bạch tuộc tươi.,Seafood,General
+mussels,/ˈmʌsəlz/,,con trai,The restaurant serves fresh mussels.,Nhà hàng phục vụ con trai tươi.,Seafood,General
+fish,/fɪʃ/,,cá,The restaurant serves fresh fish.,Nhà hàng phục vụ cá tươi.,Seafood,General
+salmon,/ˈsæmən/,noun,cá hồi,The restaurant serves fresh salmon.,Nhà hàng phục vụ cá hồi tươi.,Seafood,General
+tuna,/ˈtuːnə/,noun,cá ngừ,The restaurant serves fresh tuna.,Nhà hàng phục vụ cá ngừ tươi.,Seafood,General
+cod,/kɒd/,noun,cá tuyết,The restaurant serves fresh cod.,Nhà hàng phục vụ cá tuyết tươi.,Seafood,General
+haddock,/ˈhædək/,,cá tuyết trắng,The restaurant serves fresh haddock.,Nhà hàng phục vụ cá tuyết trắng tươi.,Seafood,General
+sardine,/sɑːrˈdiːn/,,cá mòi,The restaurant serves fresh sardine.,Nhà hàng phục vụ cá mòi tươi.,Seafood,General
+anchovy,/ˈænʧəvi/,,cá cơm,The restaurant serves fresh anchovy.,Nhà hàng phục vụ cá cơm tươi.,Seafood,General
+trout,/traʊt/,,cá hồi nướng,The restaurant serves fresh trout.,Nhà hàng phục vụ cá hồi nướng tươi.,Seafood,General
+shrimp cocktail,/ʃrɪmpˈkɒkteɪl/,phrase,món tôm sốt cocktail,The restaurant serves fresh shrimp cocktail.,Nhà hàng phục vụ món tôm sốt cocktail tươi.,Seafood,General
+caviar,/ˈkæviɑːr/,,trứng cá hồi,The restaurant serves fresh caviar.,Nhà hàng phục vụ trứng cá hồi tươi.,Seafood,General
+calamari,/kəˈlæməri/,,mực nướng,The restaurant serves fresh calamari.,Nhà hàng phục vụ mực nướng tươi.,Seafood,General

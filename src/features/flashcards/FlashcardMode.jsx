@@ -27,5 +27,9 @@ export function FlashcardMode({ levelId, onClassify, onOrderChange, order, recor
     if (removeLearnedCards && status === 'learned') dispatch({ type: 'remove', id: record.id })
     onClassify(record.id, status)
   }
-  return <div className="mode-stack"><div className="session-toolbar"><SessionProgress current={session.index + 1} total={session.records.length} /><StudyOrderControl value={order} onChange={onOrderChange} /></div><Flashcard record={record} flipped={session.flipped} onFlip={flip} /><FlashcardControls classification={classification} disablePrevious={session.index === 0} onPrevious={previous} onNext={next} onLearned={() => classify('learned')} onReview={() => classify('review')} /><p className="keyboard-hint">Phím tắt: Space lật thẻ · ← trước · → tiếp</p></div>
+  function changeOrder(value) {
+    onOrderChange(value)
+    dispatch({ type: 'reset', session: createFlashcardSession(records, value) })
+  }
+  return <div className="mode-stack"><div className="session-toolbar"><SessionProgress current={session.index + 1} total={session.records.length} /><StudyOrderControl value={order} onChange={changeOrder} /></div><Flashcard record={record} flipped={session.flipped} onFlip={flip} /><FlashcardControls classification={classification} disablePrevious={session.index === 0} onPrevious={previous} onNext={next} onLearned={() => classify('learned')} onReview={() => classify('review')} /><p className="keyboard-hint">Phím tắt: Space lật thẻ · ← trước · → tiếp</p></div>
 }

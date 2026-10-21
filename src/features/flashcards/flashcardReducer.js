@@ -1,5 +1,6 @@
 export function flashcardReducer(state, action) {
   switch (action.type) {
+    case 'reset': return action.session
     case 'flip': return state.complete ? state : { ...state, flipped: !state.flipped }
     case 'previous': return { ...state, index: Math.max(0, state.index - 1), flipped: false }
     case 'next': return state.index >= state.records.length - 1 ? { ...state, complete: true, flipped: false } : { ...state, index: state.index + 1, flipped: false }

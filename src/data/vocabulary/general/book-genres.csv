@@ -1,20 +1,20 @@
 ﻿Term,IPA,PartOfSpeech,Definition,Example,ExampleTranslation,Topic,Level
-fction,/ˈfɪkʃən/,noun,tiểu thuyết,She likes reading science fiction.,Cô ấy thích đọc truyện khoa học viễn tưởng.,Book Genres,General
-non-fction,/nɑnˈfɪkʃən/,,phi hư cấu,"In this topic, “non-fction” means “phi hư cấu” in Vietnamese.","Trong chủ đề này, “non-fction” có nghĩa là “phi hư cấu” trong tiếng Việt.",Book Genres,General
-mystery,/ˈmɪstəri/,noun,"bí ẩn, trinh thám","In this topic, “mystery” means “bí ẩn, trinh thám” in Vietnamese.","Trong chủ đề này, “mystery” có nghĩa là “bí ẩn, trinh thám” trong tiếng Việt.",Book Genres,General
-romance,/ˈroʊmæns/,noun,tình cảm,"In this topic, “romance” means “tình cảm” in Vietnamese.","Trong chủ đề này, “romance” có nghĩa là “tình cảm” trong tiếng Việt.",Book Genres,General
-sciencefction,/ˈsaɪənsˈfɪkʃən/,noun,khoa học viễn tưởng,"In this topic, “sciencefction” means “khoa học viễn tưởng” in Vietnamese.","Trong chủ đề này, “sciencefction” có nghĩa là “khoa học viễn tưởng” trong tiếng Việt.",Book Genres,General
-fantasy,/ˈfæntəsi/,noun,huyền bí,"In this topic, “fantasy” means “huyền bí” in Vietnamese.","Trong chủ đề này, “fantasy” có nghĩa là “huyền bí” trong tiếng Việt.",Book Genres,General
-thriller,/ˈθrɪlər/,noun,"ly kỳ / căng thẳng, hồi hộp","In this topic, “thriller” means “ly kỳ / căng thẳng, hồi hộp” in Vietnamese.","Trong chủ đề này, “thriller” có nghĩa là “ly kỳ / căng thẳng, hồi hộp” trong tiếng Việt.",Book Genres,General
-horror,/ˈhɔːrər/,noun,kinh dị,"In this topic, “horror” means “kinh dị” in Vietnamese.","Trong chủ đề này, “horror” có nghĩa là “kinh dị” trong tiếng Việt.",Book Genres,General
-biography,/baɪˈɑːɡrəf/,,tiểu sử,"In this topic, “biography” means “tiểu sử” in Vietnamese.","Trong chủ đề này, “biography” có nghĩa là “tiểu sử” trong tiếng Việt.",Book Genres,General
-autobiography,/ˌɔːtoʊbaɪˈɑːɡrəf/,,tự truyện,"In this topic, “autobiography” means “tự truyện” in Vietnamese.","Trong chủ đề này, “autobiography” có nghĩa là “tự truyện” trong tiếng Việt.",Book Genres,General
-historicalfction,/hɪˈstɔːrɪkəlˈfɪkʃən/,phrase,tiểu thuyết lịch sử,"In this topic, “historicalfction” means “tiểu thuyết lịch sử” in Vietnamese.","Trong chủ đề này, “historicalfction” có nghĩa là “tiểu thuyết lịch sử” trong tiếng Việt.",Book Genres,General
-poetry,/ˈpoʊətri/,noun,thơ,"In this topic, “poetry” means “thơ” in Vietnamese.","Trong chủ đề này, “poetry” có nghĩa là “thơ” trong tiếng Việt.",Book Genres,General
+fiction,/ˈfɪkʃən/,noun,tiểu thuyết,She likes reading science fiction.,Cô ấy thích đọc truyện khoa học viễn tưởng.,Book Genres,General
+non-fiction,/nɑnˈfɪkʃən/,,phi hư cấu,She borrowed a non-fiction from the library.,Cô ấy mượn một cuốn phi hư cấu từ thư viện.,Book Genres,General
+mystery,/ˈmɪstəri/,noun,"bí ẩn, trinh thám",She borrowed a mystery from the library.,"Cô ấy mượn một cuốn bí ẩn, trinh thám từ thư viện.",Book Genres,General
+romance,/ˈroʊmæns/,noun,tình cảm,She borrowed a romance from the library.,Cô ấy mượn một cuốn tình cảm từ thư viện.,Book Genres,General
+science fiction,/ˈsaɪənsˈfɪkʃən/,noun,khoa học viễn tưởng,She borrowed a science fiction from the library.,Cô ấy mượn một cuốn khoa học viễn tưởng từ thư viện.,Book Genres,General
+fantasy,/ˈfæntəsi/,noun,huyền bí,She borrowed a fantasy from the library.,Cô ấy mượn một cuốn huyền bí từ thư viện.,Book Genres,General
+thriller,/ˈθrɪlər/,noun,"ly kỳ / căng thẳng, hồi hộp",She borrowed a thriller from the library.,"Cô ấy mượn một cuốn ly kỳ / căng thẳng, hồi hộp từ thư viện.",Book Genres,General
+horror,/ˈhɔːrər/,noun,kinh dị,She borrowed a horror from the library.,Cô ấy mượn một cuốn kinh dị từ thư viện.,Book Genres,General
+biography,/baɪˈɑːɡrəfi/,,tiểu sử,She borrowed a biography from the library.,Cô ấy mượn một cuốn tiểu sử từ thư viện.,Book Genres,General
+autobiography,/ˌɔːtoʊbaɪˈɑːɡrəfi/,,tự truyện,She borrowed a autobiography from the library.,Cô ấy mượn một cuốn tự truyện từ thư viện.,Book Genres,General
+historical fiction,/hɪˈstɔːrɪkəlˈfɪkʃən/,phrase,tiểu thuyết lịch sử,She borrowed a historical fiction from the library.,Cô ấy mượn một cuốn tiểu thuyết lịch sử từ thư viện.,Book Genres,General
+poetry,/ˈpoʊətri/,noun,thơ,She borrowed a poetry from the library.,Cô ấy mượn một cuốn thơ từ thư viện.,Book Genres,General
 drama,/ˈdrɑːmə/,noun,kịch,My sister enjoys watching drama series.,Chị tôi thích xem phim truyền hình.,Book Genres,General
 comedy,/ˈkɑːmədi/,noun,hài,We watched a comedy and laughed a lot.,Chúng tôi xem một bộ phim hài và cười rất nhiều.,Book Genres,General
 adventure,/ədˈvɛnʧər/,noun,phiêu lưu,Our camping trip was a great adventure.,Chuyến cắm trại của chúng tôi là một cuộc phiêu lưu tuyệt vời.,Book Genres,General
-young adult,/jʌŋˈædʌlt/,phrase,thanh thiếu niên,"In this topic, “young adult” means “thanh thiếu niên” in Vietnamese.","Trong chủ đề này, “young adult” có nghĩa là “thanh thiếu niên” trong tiếng Việt.",Book Genres,General
-children's,/ˈtʃɪldrənz/,,thiếu nhi,"In this topic, “children's” means “thiếu nhi” in Vietnamese.","Trong chủ đề này, “children's” có nghĩa là “thiếu nhi” trong tiếng Việt.",Book Genres,General
-self-help,/ˌsɛlfˈhɛlp/,,tự giúp bản thân,"In this topic, “self-help” means “tự giúp bản thân” in Vietnamese.","Trong chủ đề này, “self-help” có nghĩa là “tự giúp bản thân” trong tiếng Việt.",Book Genres,General
-historical romance,/hɪˈstɔːrɪkəlˈroʊmæns/,phrase,tình cảm lịch sử,"In this topic, “historical romance” means “tình cảm lịch sử” in Vietnamese.","Trong chủ đề này, “historical romance” có nghĩa là “tình cảm lịch sử” trong tiếng Việt.",Book Genres,General
+young adult,/jʌŋˈædʌlt/,phrase,thanh thiếu niên,She borrowed a young adult from the library.,Cô ấy mượn một cuốn thanh thiếu niên từ thư viện.,Book Genres,General
+children's,/ˈtʃɪldrənz/,,thiếu nhi,She borrowed a children's from the library.,Cô ấy mượn một cuốn thiếu nhi từ thư viện.,Book Genres,General
+self-help,/ˌsɛlfˈhɛlp/,,tự giúp bản thân,She borrowed a self-help from the library.,Cô ấy mượn một cuốn tự giúp bản thân từ thư viện.,Book Genres,General
+historical romance,/hɪˈstɔːrɪkəlˈroʊmæns/,phrase,tình cảm lịch sử,She borrowed a historical romance from the library.,Cô ấy mượn một cuốn tình cảm lịch sử từ thư viện.,Book Genres,General
