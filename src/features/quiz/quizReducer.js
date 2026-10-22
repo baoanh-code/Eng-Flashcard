@@ -1,5 +1,6 @@
 export function quizReducer(state, action) {
   switch (action.type) {
+    case 'reset': return action.session
     case 'answer': {
       if (state.selectedId) return state
       const correct = action.id === action.correctId

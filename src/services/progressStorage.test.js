@@ -26,7 +26,12 @@ describe('progress storage', () => {
     expect(value.learnedIds).toEqual(['a'])
     expect(value.reviewIds).toEqual(['b'])
     expect(value.lastSession).toBeNull()
-    expect(value.settings.studyOrder).toBe('original')
+    expect(value.settings.studyOrderByMode).toEqual({
+      flashcards: 'original',
+      'multiple-choice': 'original',
+      writing: 'original',
+      matching: 'original',
+    })
   })
 
   it('migrates version zero and serializes a clean payload', () => {
@@ -34,7 +39,7 @@ describe('progress storage', () => {
     const loaded = loadProgress(storage)
     const setItem = vi.fn()
 
-    expect(loaded.progress).toMatchObject({ version: 2, learnedIds: ['a'], reviewIds: ['b'] })
+    expect(loaded.progress).toMatchObject({ version: 3, learnedIds: ['a'], reviewIds: ['b'] })
     expect(saveProgress(loaded.progress, { setItem }).status).toBe('ready')
     expect(setItem).toHaveBeenCalledWith(PROGRESS_STORAGE_KEY, JSON.stringify(loaded.progress))
   })
@@ -51,9 +56,39 @@ describe('progress storage', () => {
     }
 
     expect(loadProgress(storage).progress).toMatchObject({
-      version: 2,
+      version: 3,
       learnedIds: ['general-animals-fish'],
       reviewIds: ['general-environment-desertification'],
+      settings: {
+        studyOrderByMode: {
+          flashcards: 'random',
+          'multiple-choice': 'original',
+          writing: 'original',
+          matching: 'original',
+        },
+      },
+    })
+  })
+
+  it('persists independent study-order preferences for all four modes', () => {
+    const values = new Map()
+    const storage = {
+      getItem: (key) => values.get(key) ?? null,
+      setItem: (key, value) => values.set(key, value),
+    }
+    const progress = createDefaultProgress()
+    progress.learnedIds = ['kept-progress']
+    progress.settings.studyOrderByMode = {
+      flashcards: 'random',
+      'multiple-choice': 'original',
+      writing: 'random',
+      matching: 'random',
+    }
+
+    expect(saveProgress(progress, storage).status).toBe('ready')
+    expect(loadProgress(storage).progress).toMatchObject({
+      learnedIds: ['kept-progress'],
+      settings: { studyOrderByMode: progress.settings.studyOrderByMode },
     })
   })
 

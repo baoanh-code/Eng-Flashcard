@@ -27,6 +27,15 @@ export function StudyPage() {
   if (status === 'error') return <CatalogError />
   if (!topic || !studyModes.some((item) => item.id === mode)) return <NotFoundPage />
   if (!records.length) return <NoVocabulary />
-  const modeProps = { levelId, topicId, records, levelRecords: catalog.indexes.byLevel.get(levelId) ?? records }
-  return <StudyLayout catalog={catalog} levelId={levelId} records={records} topicId={topicId} topic={topic}>{mode === 'flashcards' ? <FlashcardMode {...modeProps} order={state.settings.studyOrder} onOrderChange={(studyOrder) => dispatch({ type: 'setStudyOrder', studyOrder })} onClassify={(id, classification) => dispatch({ type: classification === 'learned' ? 'markLearned' : 'markReview', id })} /> : mode === 'multiple-choice' ? <MultipleChoiceMode {...modeProps} /> : mode === 'writing' ? <WritingMode {...modeProps} /> : <MatchingMode {...modeProps} />}</StudyLayout>
+  const order = state.settings.studyOrderByMode[mode]
+  const sessionKey = `${levelId}:${topicId}:${mode}`
+  const modeProps = {
+    levelId,
+    topicId,
+    records,
+    levelRecords: catalog.indexes.byLevel.get(levelId) ?? records,
+    order,
+    onOrderChange: (studyOrder) => dispatch({ type: 'setStudyOrder', mode, studyOrder }),
+  }
+  return <StudyLayout catalog={catalog} levelId={levelId} records={records} topicId={topicId} topic={topic}>{mode === 'flashcards' ? <FlashcardMode key={sessionKey} {...modeProps} onClassify={(id, classification) => dispatch({ type: classification === 'learned' ? 'markLearned' : 'markReview', id })} /> : mode === 'multiple-choice' ? <MultipleChoiceMode key={sessionKey} {...modeProps} /> : mode === 'writing' ? <WritingMode key={sessionKey} {...modeProps} /> : <MatchingMode key={sessionKey} {...modeProps} />}</StudyLayout>
 }

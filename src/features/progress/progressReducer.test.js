@@ -33,4 +33,24 @@ describe('progressReducer', () => {
     expect(next.reviewIds).toEqual([])
     expect(next.lastSession).toBeNull()
   })
+
+  it('changes one mode order without resetting progress or other preferences', () => {
+    const state = {
+      ...createDefaultProgress(),
+      learnedIds: ['learned-word'],
+      reviewIds: ['review-word'],
+    }
+    const next = progressReducer(state, {
+      type: 'setStudyOrder', mode: 'writing', studyOrder: 'random',
+    })
+
+    expect(next.learnedIds).toEqual(['learned-word'])
+    expect(next.reviewIds).toEqual(['review-word'])
+    expect(next.settings.studyOrderByMode).toEqual({
+      flashcards: 'original',
+      'multiple-choice': 'original',
+      writing: 'random',
+      matching: 'original',
+    })
+  })
 })

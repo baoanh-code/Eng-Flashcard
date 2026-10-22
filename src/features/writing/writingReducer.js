@@ -2,6 +2,7 @@ import { normalizeAnswer } from '../../utils/normalizeAnswer.js'
 
 export function writingReducer(state, action) {
   switch (action.type) {
+    case 'reset': return action.session
     case 'answer': {
       const correct = normalizeAnswer(action.answer) === normalizeAnswer(action.term)
       return { ...state, answer: action.answer, answered: true, correct: state.correct + Number(correct), incorrect: state.incorrect + Number(!correct), wasCorrect: correct }

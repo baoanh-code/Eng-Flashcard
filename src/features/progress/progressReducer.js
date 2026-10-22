@@ -47,8 +47,17 @@ export function progressReducer(state, action) {
         },
       }
     case 'setStudyOrder':
-      return STUDY_ORDERS.includes(action.studyOrder)
-        ? { ...state, settings: { ...state.settings, studyOrder: action.studyOrder } }
+      return STUDY_MODES.includes(action.mode) && STUDY_ORDERS.includes(action.studyOrder)
+        ? {
+          ...state,
+          settings: {
+            ...state.settings,
+            studyOrderByMode: {
+              ...state.settings.studyOrderByMode,
+              [action.mode]: action.studyOrder,
+            },
+          },
+        }
         : state
     case 'resetTopic': {
       const ids = new Set(action.ids)

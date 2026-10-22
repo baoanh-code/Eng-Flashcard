@@ -1,6 +1,8 @@
 import { generateVocabularyId } from '../data/import/generateVocabularyId.js'
 
-export const PROGRESS_VERSION = 2
+export const PROGRESS_VERSION = 3
+
+const studyModes = ['flashcards', 'multiple-choice', 'writing', 'matching']
 
 const correctedTerms = [
   ['environment', 'desertifcation', 'desertification'],
@@ -66,6 +68,20 @@ const migrations = new Map([
     learnedIds: migrateCorrectedIds(value.learnedIds),
     reviewIds: migrateCorrectedIds(value.reviewIds),
   })],
+  [2, (value) => {
+    const { studyOrder: legacyOrder, ...otherSettings } = value.settings ?? {}
+    return {
+      ...value,
+      version: 3,
+      settings: {
+        ...otherSettings,
+        studyOrderByMode: Object.fromEntries(studyModes.map((mode) => [
+          mode,
+          mode === 'flashcards' && legacyOrder ? legacyOrder : 'original',
+        ])),
+      },
+    }
+  }],
 ])
 
 export function migrateProgress(value) {

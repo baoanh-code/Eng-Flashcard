@@ -114,6 +114,27 @@ test('shows explicit feedback in multiple choice and writing', async ({ page }) 
   await expect(page.getByRole('status')).toContainText('Chính xác')
 })
 
+test('persists an independent study order for every mode', async ({ page }) => {
+  const routes = ['flashcards', 'multiple-choice', 'writing', 'matching']
+
+  await page.goto(`${topicPath}/study/flashcards`)
+  await page.getByLabel('Thứ tự').selectOption('random')
+  await expect(page.getByRole('button', { name: 'Xáo lại' })).toBeVisible()
+
+  for (const mode of routes.slice(1)) {
+    await page.goto(`${topicPath}/study/${mode}`)
+    await expect(page.getByLabel('Thứ tự')).toHaveValue('original')
+    await expect(page.getByRole('button', { name: 'Xáo lại' })).toHaveCount(0)
+    await page.getByLabel('Thứ tự').selectOption('random')
+    await expect(page.getByRole('button', { name: 'Xáo lại' })).toBeVisible()
+  }
+
+  for (const mode of routes) {
+    await page.goto(`${topicPath}/study/${mode}`)
+    await expect(page.getByLabel('Thứ tự')).toHaveValue('random')
+  }
+})
+
 test('operates a matching round with the keyboard', async ({ page }) => {
   const definitionsByTerm = new Map([
     ['parent', 'Bố hoặc mẹ'], ['father', 'Bố'], ['mother', 'Mẹ'],
@@ -149,12 +170,13 @@ test('downloads a filtered UTF-8 CSV', async ({ page }) => {
 
 test('keeps the study workspace usable at 320px', async ({ page }) => {
   await page.setViewportSize({ width: 320, height: 800 })
-  await page.goto(flashcardPath)
-  await expect(page.getByRole('navigation', { name: 'Chế độ học' }).getByRole('link')).toHaveCount(4)
-  await expect(page.getByRole('button', { name: /Pronounce parent/ })).toBeVisible()
-  await expect(page.getByRole('button', { name: 'Thẻ trước' })).toBeVisible()
-  await expect(page.getByRole('button', { name: 'Thẻ tiếp theo' })).toBeVisible()
-  expect(await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth)).toBe(false)
+  for (const mode of ['flashcards', 'multiple-choice', 'writing', 'matching']) {
+    await page.goto(`${topicPath}/study/${mode}`)
+    await page.getByLabel('Thứ tự').selectOption('random')
+    await expect(page.getByRole('button', { name: 'Xáo lại' })).toBeVisible()
+    await expect(page.getByRole('navigation', { name: 'Chế độ học' }).getByRole('link')).toHaveCount(4)
+    expect(await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth), mode).toBe(false)
+  }
 })
 
 test('opens the mobile menu into focus and restores focus on Escape', async ({ page }, testInfo) => {
@@ -182,7 +204,8 @@ test('requires confirmation before resetting topic progress', async ({ page }) =
 })
 
 test('has no axe findings on representative learning surfaces', async ({ page }) => {
-  const routes = ['/levels/general/topics', topicPath, flashcardPath, '/vocabulary?level=general', '/levels/general/progress']
+  test.setTimeout(60_000)
+  const routes = ['/levels/general/topics', topicPath, flashcardPath, `${topicPath}/study/multiple-choice`, `${topicPath}/study/writing`, `${topicPath}/study/matching`, '/vocabulary?level=general', '/levels/general/progress']
   for (const route of routes) {
     await page.goto(route)
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible()

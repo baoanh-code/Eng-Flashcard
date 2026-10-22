@@ -683,7 +683,9 @@ p { text-wrap: pretty; }
 .session-progress__label { color: var(--color-text-muted); font-size: var(--text-caption); }
 .session-progress__value { color: var(--color-ink); font-family: var(--font-display); font-size: 1.65rem; font-variant-numeric: tabular-nums; line-height: 1; }
 .session-progress__value span { color: var(--color-text-muted); font-size: 1rem; }
-.order-control { display: grid; gap: var(--space-1); color: var(--color-text-muted); font-size: var(--text-caption); font-weight: 600; }
+.study-order-controls { display: flex; align-items: end; justify-content: flex-end; gap: var(--space-2); min-width: 0; }
+.order-control { min-width: 9rem; display: grid; gap: var(--space-1); color: var(--color-text-muted); font-size: var(--text-caption); font-weight: 600; }
+.reshuffle-button { min-width: auto; padding-inline: var(--space-3); color: var(--color-primary); white-space: nowrap; }
 
 .flashcard-shell { position: relative; }
 .flashcard {
@@ -972,7 +974,9 @@ p { text-wrap: pretty; }
   .mode-switcher { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .mode-switcher a { min-height: 3.75rem; }
   .mode-switcher small { display: block; }
-  .session-toolbar { grid-template-columns: 1fr auto; }
+  .session-toolbar { grid-template-columns: minmax(0, 1fr); gap: var(--space-3); }
+  .study-order-controls { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: end; justify-content: stretch; }
+  .order-control { min-width: 0; }
   .flashcard { min-height: 20.5rem; padding: var(--space-6) var(--space-4); }
   .flashcard__content strong { font-size: clamp(2.75rem, 16vw, 4.5rem); }
   .flashcard__pronounce { inset-block-start: var(--space-3); inset-inline-end: var(--space-3); }

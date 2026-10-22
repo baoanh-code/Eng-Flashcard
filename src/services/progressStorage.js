@@ -4,13 +4,17 @@ export const PROGRESS_STORAGE_KEY = 'fl-eng.progress'
 export const STUDY_MODES = Object.freeze(['flashcards', 'multiple-choice', 'writing', 'matching'])
 export const STUDY_ORDERS = Object.freeze(['original', 'random'])
 
+export function createDefaultStudyOrderByMode() {
+  return Object.fromEntries(STUDY_MODES.map((mode) => [mode, 'original']))
+}
+
 export function createDefaultProgress() {
   return {
     version: PROGRESS_VERSION,
     learnedIds: [],
     reviewIds: [],
     lastSession: null,
-    settings: { studyOrder: 'original' },
+    settings: { studyOrderByMode: createDefaultStudyOrderByMode() },
   }
 }
 
@@ -34,16 +38,19 @@ export function sanitizeProgress(value) {
   const learnedIds = cleanIds(migrated.learnedIds)
   const learnedSet = new Set(learnedIds)
   const reviewIds = cleanIds(migrated.reviewIds).filter((id) => !learnedSet.has(id))
-  const studyOrder = STUDY_ORDERS.includes(migrated.settings?.studyOrder)
-    ? migrated.settings.studyOrder
-    : 'original'
+  const storedOrders = migrated.settings?.studyOrderByMode
+  const legacyOrder = migrated.settings?.studyOrder
+  const studyOrderByMode = Object.fromEntries(STUDY_MODES.map((mode) => {
+    const candidate = storedOrders?.[mode] ?? (mode === 'flashcards' ? legacyOrder : undefined)
+    return [mode, STUDY_ORDERS.includes(candidate) ? candidate : 'original']
+  }))
 
   return {
     version: PROGRESS_VERSION,
     learnedIds,
     reviewIds,
     lastSession: cleanLastSession(migrated.lastSession),
-    settings: { studyOrder },
+    settings: { studyOrderByMode },
   }
 }
 

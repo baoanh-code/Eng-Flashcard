@@ -1,12 +1,12 @@
 import { useCallback, useMemo, useReducer } from 'react'
 import { SessionProgress } from '../study/SessionProgress.jsx'
 import { SessionSummary } from '../study/SessionSummary.jsx'
+import { StudyOrderControl } from '../study/StudyOrderControl.jsx'
 import { useStudyKeyboard } from '../study/useStudyKeyboard.js'
 import { createFlashcardSession } from './createFlashcardSession.js'
 import { Flashcard } from './Flashcard.jsx'
 import { FlashcardControls } from './FlashcardControls.jsx'
 import { flashcardReducer } from './flashcardReducer.js'
-import { StudyOrderControl } from './StudyOrderControl.jsx'
 
 export function FlashcardMode({ levelId, onClassify, onOrderChange, order, records, removeLearnedCards = false, topicId }) {
   const [session, dispatch] = useReducer(flashcardReducer, null, () => createFlashcardSession(records, order))
@@ -31,5 +31,8 @@ export function FlashcardMode({ levelId, onClassify, onOrderChange, order, recor
     onOrderChange(value)
     dispatch({ type: 'reset', session: createFlashcardSession(records, value) })
   }
-  return <div className="mode-stack"><div className="session-toolbar"><SessionProgress current={session.index + 1} total={session.records.length} /><StudyOrderControl value={order} onChange={changeOrder} /></div><Flashcard record={record} flipped={session.flipped} onFlip={flip} /><FlashcardControls classification={classification} disablePrevious={session.index === 0} onPrevious={previous} onNext={next} onLearned={() => classify('learned')} onReview={() => classify('review')} /><p className="keyboard-hint">Phím tắt: Space lật thẻ · ← trước · → tiếp</p></div>
+  function reshuffle() {
+    dispatch({ type: 'reset', session: createFlashcardSession(records, 'random') })
+  }
+  return <div className="mode-stack"><div className="session-toolbar"><SessionProgress current={session.index + 1} total={session.records.length} /><StudyOrderControl value={order} onChange={changeOrder} onReshuffle={reshuffle} /></div><Flashcard record={record} flipped={session.flipped} onFlip={flip} /><FlashcardControls classification={classification} disablePrevious={session.index === 0} onPrevious={previous} onNext={next} onLearned={() => classify('learned')} onReview={() => classify('review')} /><p className="keyboard-hint">Phím tắt: Space lật thẻ · ← trước · → tiếp</p></div>
 }

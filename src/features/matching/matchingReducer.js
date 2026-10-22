@@ -1,5 +1,14 @@
 export function matchingReducer(state, action) {
   switch (action.type) {
+    case 'reset': return {
+      roundIndex: 0,
+      matchedIds: [],
+      selectedTermId: null,
+      selectedDefinitionId: null,
+      mismatch: null,
+      mistakes: 0,
+      startedAt: action.startedAt,
+    }
     case 'selectTerm': return state.mismatch ? state : evaluate({ ...state, selectedTermId: action.id })
     case 'selectDefinition': return state.mismatch ? state : evaluate({ ...state, selectedDefinitionId: action.id })
     case 'clearMismatch': return { ...state, mismatch: null, selectedTermId: null, selectedDefinitionId: null }
